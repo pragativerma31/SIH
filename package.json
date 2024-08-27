@@ -1,0 +1,45 @@
+{
+  "name": "socialcalc",
+  "version": "2.3.0",
+  "description": "Collaborative spreadsheet editor",
+  "main": "dist/SocialCalc.js",
+  "scripts": {
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelklehr/socialcalc.git"
+  },
+  "keywords": [
+    "spreadsheet",
+    "socialcalc",
+    "ethercalc",
+    "excel",
+    "calc",
+    "table",
+    "grid",
+    "cells",
+    "office",
+    "spreadsheets",
+    "editor"
+  ],
+  "author": "Dan Bricklin",
+  "license": "(CPAL-1.0 AND Artistic-2.0 AND MPL-2.0)",
+  "bugs": {
+    "url": "https://github.com/marcelklehr/socialcalc/issues"
+  },
+  "homepage": "https://github.com/marcelklehr/socialcalc#readme",
+  "devDependencies": {
+    "files-exist": "^1.0.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-uglify": "^3.0.0",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1"
+  }
+}
